@@ -1,4 +1,6 @@
 # Adding `.env` file (like laravel) support in CodeIgniter 
+[![StyleCI](https://github.styleci.io/repos/212960577/shield?branch=master)](https://github.styleci.io/repos/212960577)
+
 This is a showcase how you can implement Laravel like .env file structure in your CodeIgniter application, and make configurations easy for all the development, production, testing stages. You don't need to take care of `application/config/database.php` file each time you do `git pull` or put it in `.gitignore`. 
 
 

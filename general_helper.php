@@ -1,12 +1,14 @@
-<?php 
+<?php
+
 // Create this file.
 // file: application/helpers/general_helper.php
 
-if (! function_exists('value')) {
+if (!function_exists('value')) {
     /**
      * Return the default value of the given value.
      *
-     * @param  mixed  $value
+     * @param mixed $value
+     *
      * @return mixed
      */
     function value($value)
@@ -15,13 +17,13 @@ if (! function_exists('value')) {
     }
 }
 
-
-if (! function_exists('env')) {
+if (!function_exists('env')) {
     /**
      * Gets the value of an environment variable.
      *
-     * @param  string  $key
-     * @param  mixed   $default
+     * @param string $key
+     * @param mixed  $default
+     *
      * @return mixed
      */
     function env($key, $default = null)

@@ -1,10 +1,9 @@
-<?php 
+<?php
 
 // file : application/config/autoload.php
-// Autoload env library. 
+// Autoload env library.
 
-$autoload['libraries'] = array('env');
-
+$autoload['libraries'] = ['env'];
 
 // load general_helper
-$autoload['helper'] = array('general');
+$autoload['helper'] = ['general'];

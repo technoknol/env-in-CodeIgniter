@@ -22,6 +22,11 @@ $autoload['libraries'] = array('env');
 $autoload['helper'] = array('general');
 ```
 
+##### 5. Autoload helper
+> Make `composer_autoload` to `true` like this in `config.php` file 
+```
+$config['composer_autoload'] = TRUE;
+```
 ##### 6. Create an `.env` file
 Create an `.env` file in your project root folder. 
 

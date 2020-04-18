@@ -11,11 +11,10 @@ class Env
     {
         $dotenv = Dotenv\Dotenv::create(FCPATH);
         /**
-        * If you are using vulcas/phpdotenv >= 4.x.x then use below code, and comment above line. 
-        * 
-        * $dotenv = Dotenv\Dotenv::createImmutable(FCPATH);
-        */
-        
+         * If you are using vulcas/phpdotenv >= 4.x.x then use below code, and comment above line.
+         *
+         * $dotenv = Dotenv\Dotenv::createImmutable(FCPATH);
+         */
         $dotenv->load();
     }
 }

@@ -10,6 +10,12 @@ class Env
     public function __construct()
     {
         $dotenv = Dotenv\Dotenv::create(FCPATH);
+        /**
+        * If you are using vulcas/phpdotenv > 4 then use below code, and comment above line. 
+        * 
+        * $dotenv = Dotenv\Dotenv::createImmutable(FCPATH);
+        */
+        
         $dotenv->load();
     }
 }

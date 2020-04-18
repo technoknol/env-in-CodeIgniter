@@ -16,21 +16,21 @@ This is a showcase how you can implement Laravel like .env file structure in you
 ```
 $autoload['libraries'] = array('env');
 ```
-##### 5. Autoload helper
+##### 5. Autoload helper (application/config/autoload.php)
 > Add helper to `$autoload['helper']` like this 
 ```
 $autoload['helper'] = array('general');
 ```
 
-##### 5. Autoload helper
+##### 6. Autoload helper (application/config/autoload.php)
 > Make `composer_autoload` to `true` like this in `config.php` file 
 ```
 $config['composer_autoload'] = TRUE;
 ```
-##### 6. Create an `.env` file
+##### 7. Create an `.env` file
 Create an `.env` file in your project root folder. 
 
-##### 7. Access an env variable
+##### 8. Access an env variable
 > In your php code you can access any .env variable like below 
 ```
 env('MY_VARIABLE');

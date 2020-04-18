@@ -9,6 +9,9 @@ This is a showcase how you can implement Laravel like .env file structure in you
 > Run `composer require vlucas/phpdotenv` command in your project root directory. (If you don't have composer.json, don't worry, composer will take care of it.
 ##### 2. Copy a file `Env.php` to your `application/libraries` directory.
 > This will load your env file in environment.
+
+If you are using `vulcas/phpdotenv` > `4`, then change code accordingly as mentioned in `Env.php` file.
+
 ##### 3. Copy `general_helper.php` to your `application/helpers` directory.
 > This will add `env` helper method to get any variable stored in `.env` file.
 ##### 4. Autoload library 

@@ -10,7 +10,7 @@ This is a showcase how you can implement Laravel like .env file structure in you
 ##### 2. Copy a file `Env.php` to your `application/libraries` directory.
 > This will load your env file in environment.
 
-If you are using `vulcas/phpdotenv` > `4`, then change code accordingly as mentioned in `Env.php` file.
+If you are using `vulcas/phpdotenv >= 4.x.x`, then change code accordingly as mentioned in `Env.php` file.
 
 ##### 3. Copy `general_helper.php` to your `application/helpers` directory.
 > This will add `env` helper method to get any variable stored in `.env` file.

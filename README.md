@@ -23,9 +23,9 @@ $autoload['helper'] = array('general');
 ```
 
 ##### 6. Autoload helper (application/config/autoload.php)
-> Make `composer_autoload` to `true` like this in `config.php` file 
+> Make `composer_autoload` to `vendor/autoload.php` file path like this in `config.php` file 
 ```
-$config['composer_autoload'] = TRUE;
+$config['composer_autoload'] = FCPATH. 'vendor'. DIRECTORY_SEPARATOR . 'autoload.php';
 ```
 ##### 7. Create an `.env` file
 Create an `.env` file in your project root folder. 
